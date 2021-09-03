@@ -1,17 +1,13 @@
-# tests_unitarios_rocket
+<img src="https://storage.googleapis.com/golden-wind/experts-club/capa-github.svg" />
 
-A new Flutter project.
+# Testes Unitários no Flutter 
 
-## Getting Started
+Criar testes com Flutter não é nada complexo.
 
-This project is a starting point for a Flutter application.
+Nesse vídeo iremos ver como criar e verificar os diferentes tipos de testes existentes no Flutter como teste unitários e testes de widgets.
 
-A few resources to get you started if this is your first Flutter project:
+## Expert
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# flutter-unit-tests-2021-09-03
+| [<img src="https://avatars.githubusercontent.com/u/23418948?s=460&u=da2788c88f381c94c419ac3f615324bfdbea807e&v=4" width="75px;"/>](https://github.com/RenatoLucasMota) |
+| :-: |
+|[Renato Mota](https://github.com/RenatoLucasMota)|
