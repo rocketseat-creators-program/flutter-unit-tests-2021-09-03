@@ -1,10 +1,10 @@
 <img src="https://storage.googleapis.com/golden-wind/experts-club/capa-github.svg" />
 
-# Testes Unitários no Flutter 
+# Testes Unitários e de Integração no Flutter 
 
 Criar testes com Flutter não é nada complexo.
 
-Nesse vídeo iremos ver como criar e verificar os diferentes tipos de testes existentes no Flutter como teste unitários e testes de widgets.
+Nesse vídeo iremos ver como criar e verificar os diferentes tipos de testes existentes no Flutter como teste unitários, testes de widgets e principalmente testes de integração no qual você pode criar robôs para testar seu aplicativo e verificar se cada elemento está funcionando corretamente.
 
 ## Expert
 
