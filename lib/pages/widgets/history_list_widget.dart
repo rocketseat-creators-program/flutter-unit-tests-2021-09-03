@@ -42,10 +42,14 @@ class HistoryListWidget extends StatelessWidget {
                       itemBuilder: (_, index) {
                         return HistoryItemWidget(
                           history: user.history[index],
+                          index: index,
                         );
                       },
                     )
-                  : Text('Nenhuma operação recente.')),
+                  : Text(
+                      'Nenhuma operação recente.',
+                      key: Key('HistoryEmpty'),
+                    )),
         ],
       ),
     );

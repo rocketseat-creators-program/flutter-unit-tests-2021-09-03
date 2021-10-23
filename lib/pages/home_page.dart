@@ -64,15 +64,23 @@ class _HomePageState extends State<HomePage> {
             // falha ao realizar a operação
             onError: (error) {
               showDialog(
+                barrierDismissible: true,
                 context: context,
                 builder: (context) {
                   return AlertDialog(
                     title: Text('Ops...'),
-                    content: Text(error.message),
+                    content: Text(
+                      error.message,
+                      key: Key('ErrorMessage'),
+                    ),
                     actions: [
                       TextButton(
+                        key: Key('OkButton'),
                         onPressed: () => Navigator.pop(context),
-                        child: Text('Ok'),
+                        child: Text(
+                          'Ok',
+                          key: Key('TextButton'),
+                        ),
                       )
                     ],
                   );

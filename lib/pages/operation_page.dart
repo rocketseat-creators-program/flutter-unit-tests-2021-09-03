@@ -62,6 +62,7 @@ class _OperationPageState extends State<OperationPage> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           GestureDetector(
+           
             onTap: () => Navigator.pop(context),
             child: Container(
               height: 54,
@@ -70,7 +71,9 @@ class _OperationPageState extends State<OperationPage> {
                 child: Align(
                   alignment: Alignment.centerLeft,
                   child: Icon(
+                    
                     Icons.close,
+                     key: Key('CloseOperation'),
                     color: Colors.grey[500],
                   ),
                 ),
